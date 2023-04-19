@@ -181,16 +181,14 @@ padding-right: 10%;
 
 .nous{
   color: rgb(0, 89, 255);
-  font-size: 30px;
+  font-size: 32px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 50px;
-  padding-right: 50%;
-  text-align: center;
+  margin: 30px;
+  padding-right: 50%; 
+  text-align: left;
   
 }
 
-
-  
 .container{
   font-size: 30px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -211,16 +209,17 @@ padding-right: 10%;
 /*Nos experiences*/
 
 .Expériences{
-font-size: 30px;
-
-
+  font-size: 30px;
 }
+
+
 .experiences{
   color: rgb(0, 89, 255);
   font-size: 32px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   margin: 30px;
-  padding-right: 50%;
+  padding-right: 50%; 
+  text-align: left;
   
 }
 
@@ -266,14 +265,14 @@ color : rgb(0, 89, 255);
 .row{
 
     
-   display:flex;
-   align-items: center;
-   justify-content: center;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 
 
 
 
-  }
+} 
 
 .row {color:rgb(0, 89, 255);text-shadow: black.1em 0.1em 0.3em
 }
