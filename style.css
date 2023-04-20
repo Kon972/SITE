@@ -175,8 +175,7 @@ padding-right: 10%;
 h1{
   color: #ffffff;
   font-size: 35px;
-  font-family: 'Alkatra', cursive;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Oswald', sans-serif;
   font-size: 40px;
   top: 48%; 
   left: 20%;
@@ -202,6 +201,23 @@ h3{
     position: relative;
    
 }
+
+.kiki{
+right: 10%;
+color: rgb(0, 0, 0);
+font-size: 22px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+padding-right: 150px;
+}
+
+.php{
+  justify-content: flex-start;
+  align-items: flex-start;
+  left: 150px;
+  top:200px ;
+}
+
+/**/
 
 .container{
   font-size: 30px;
@@ -254,7 +270,23 @@ h3{
 font-size: 32px;
 
 }
+/*competences*/
+.bar{
+  width: 35%; 
+  height: 15px;
+  background-color: #d1d1d1b4; 
+}
+.skills {
+  text-align: right; 
+  color: white; }
 
+.HTML {width: 80%; height: 15px; background-color: #04AA6D;}
+
+.CSS {width: 80%; height: 15px; background-color: #2196F3;}
+
+.js {width: 10%; height: 15px;  background-color: #f44336;} 
+
+.php {width: 10%; height: 15px; background-color: #808080;}
 
 /*Icon*/
 
@@ -283,19 +315,19 @@ color : rgb(0, 89, 255);
   display:flex;
   align-items: center;
   justify-content: center;
+  color:rgb(0, 89, 255);
 
 
 
 
 } 
 
-.row {color:rgb(0, 89, 255);text-shadow: black.1em 0.1em 0.3em
-}
+
 
 .auto{width: 300px;
   border: 2px solid rgb(0, 89, 255);
   padding: 50px;
-  margin: 20px;
+  margin: 20px
 }
 
 .react{width: 300px;
