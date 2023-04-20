@@ -1,0 +1,44 @@
+ <h2>Nos compétences</h2>
+
+        <p>HTML</p>
+        <div class="bar">
+          <div class="skills html">90%</div>
+        </div>
+        
+        <p>CSS</p>
+        <div class="bar">
+          <div class="skills CSS">80%</div>
+        </div>
+        
+        <p>Windows10</p>
+        <div class="bar">
+          <div class="skills Windows10">65%</div>
+        </div>
+        
+        <p>Windows7</p>
+        <div class="bar">
+          <div class="skills Windows7">60%</div>
+
+
+
+
+
+
+
+/*competences*/
+.bar{
+  width: 50%; 
+  height: 15px;
+  background-color: #b9b9b9b4; 
+}
+.skills {
+  text-align: right; 
+  color: rgb(0, 0, 0); }
+
+.HTML {width: 80%;  height:15px; background-color: #04AA6D;}
+
+.CSS {width: 80%; height: 15px; background-color: #2196F3;}
+
+.Windows7 {width: 70%; height: 15px; background-color: #1ec534;}
+
+.Windows10 {width: 90%; height: 15px; background-color: #d40808;}
