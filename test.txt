@@ -1,0 +1,27 @@
+<h1>Nous sommes </h1><p class="cheval">William et Adama</p>
+
+
+
+
+h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  top: 53%; 
+  left: 20%;
+  position: relative;
+  
+}
+
+.cheval{
+  color: rgb(0, 89, 255);
+  font-size: 35px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  top: 48%; 
+  left: 35%;
+  position: relative;
+  text-shadow: rgb(0, 89, 255) 1px 0 10px;
+
+}
