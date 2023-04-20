@@ -149,20 +149,14 @@ canvas{
     -moz-transition: all 0.3s;
     transition: all 0.3s;
     top: 48%; 
-    left: 18%;
+    left: 18.5%;
 
   }
 
 /*colones*/
-.col{
-
-  columns: 1;
-column-width: 3px;
-padding-left: 10%;
-padding-right:10%;
-
-
-
+.container{
+  column-count: 1;
+  column-width: 250px;
 }
 
 
@@ -178,15 +172,35 @@ padding-left: 10%;
 padding-right: 10%;
 
 }
+h1{
+  color: #ffffff;
+  font-size: 35px;
+  font-family: 'Alkatra', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-size: 40px;
+  top: 48%; 
+  left: 20%;
+  position: relative;
+   
+}
 
-.nous{
+h2{
   color: rgb(0, 89, 255);
   font-size: 32px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 30px;
-  padding-right: 50%; 
-  text-align: left;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
+  text-align: center;
   
+}
+
+h3{
+  color: #ffffff;
+    font-family: 'Alkatra', cursive;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    top: 48%; 
+    left: 20%;
+    position: relative;
+   
 }
 
 .container{
@@ -225,14 +239,15 @@ padding-right: 10%;
 
 /*Nos qualités*/
 
-.qualités{
-  color: rgb(0, 89, 255);
+.text{
+  color: rgb(0, 0, 0);
   font-size: 22px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 50px;
-  padding-right: 50%;
-  font-size: 30px;
-  
+  padding-top: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 20px;
+  text-align: justify;
 }
 
 .Qualités{
@@ -307,10 +322,9 @@ color : rgb(0, 89, 255);
 
 
 .Réseaux{
-  text-align: center;
-  font-size: 30px;
-  background-image: url();
-  text-shadow: #000;
+  
+  font-size: 30px; 
+ 
 
   
 }
@@ -322,12 +336,13 @@ font-style: italic-;
  
 
 }
-
-.risc{
-color: white; text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
-
-
+.photo{
+  text-align: center;
+    padding-top: 20px;
 }
+
+
+
 
 
 
