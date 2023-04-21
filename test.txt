@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
  <h2>Nos compétences</h2>
 
         <p>HTML</p>
@@ -43,7 +43,7 @@
 .Windows7 {width: 70%; height: 15px; background-color: #1ec534;}
 
 .Windows10 {width: 90%; height: 15px; background-color: #d40808;}
-=======
+
 <h1>Nous sommes </h1><p class="cheval">William et Adama</p>
 
 
@@ -71,4 +71,4 @@ h1{
   text-shadow: rgb(0, 89, 255) 1px 0 10px;
 
 }
->>>>>>> 12c1d36d05cb7f731d6384fc190104fda113f4a4
+
