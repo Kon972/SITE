@@ -25,9 +25,9 @@ li{list-style:none}
 /* ---- base ---- */
 
 html,body{ 
-	width:100%;
+	
 	height:100%;
-	background:#ffffff;
+	
 }
 
 html{
@@ -49,13 +49,14 @@ header{
   background-color: #000;
 }
 .navbar{
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   border-radius: 30px;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/02/50/23/85/1000_F_250238569_4d0uTd2VfV2nmYOJLCkucmEFo2pni5fc.jpg);
 }
 .navbar li{
   float:left;
   list-style: none; 
-  margin: 13px 20px;
+  margin: 50px 50px;
 }
 .navbar ul{
   overflow: auto;
@@ -372,12 +373,30 @@ font-style: italic-;
 }
 
 
+.end{
+    width: 90%;
+  border: 10px solid rgb(0, 89, 255);
+  padding: 5px;
+  margin: 10px;
+  padding-left: 1%;
+  letter-spacing: 1px;
+  
+}
 
 
-.folio{
+.copy{
 color:rgb(0, 0, 0);
-;
+font-size: 24px;
+text-align: end;
+letter-spacing: 1px;
+padding-left: 1%;
 
+    
+}
+.ff{
+    color:rgb(0, 0, 0);
+    font-size: 24px;
+    text-align: start;
 }
 /*competences*/
 .bar{
@@ -441,7 +460,7 @@ color:rgb(0, 0, 0);
     margin: 20px auto;
 }
 #Skill-HTML {
-    width: 100%;
+    width: 80%;
     animation: Animate-HTML 4s;
     -webkit-animation: Animate-HTML 4s;
     -moz-animation: Animate-HTML 4s;
@@ -479,7 +498,7 @@ to {
     -webkit-animation: Animate-CSS 5s;
     -moz-animation: Animate-CSS 5s;
     -o-animation: Animate-CSS 5s;
-    width: 70%;
+    width: 80%;
     height: 50px;
     position: absolute;
     background-color: #55a69f;
@@ -513,7 +532,7 @@ to {
     -webkit-animation: Animate-jQuery 5s;
     -moz-animation: Animate-jQuery 5s;
     -o-animation: Animate-jQuery 5s;
-    width: 40%;
+    width: 90%;
     height: 50px;
     position: absolute;
     background-color: #99856d;
@@ -547,7 +566,7 @@ to {
     -webkit-animation: Animate-JS 4s;
     -moz-animation: Animate-JS 4s;
     -o-animation: Animate-JS 4s;
-    width: 65%;
+    width: 70%;
     height: 50px;
     position: absolute;
     background-color: #c44e45;
@@ -581,7 +600,7 @@ to {
     -webkit-animation: Animate-XML 4s;
     -moz-animation: Animate-XML 4s;
     -o-animation: Animate-XML 4s;
-    width: 40%;
+    width: 50%;
     height: 50px;
     position: absolute;
     background-color: #5aa669;

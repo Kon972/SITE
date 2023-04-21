@@ -1,0 +1,26 @@
+/*BODY*/
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/1348233.jpg);
+}
+  /*TITRE*/
+
+  h2{
+   text-align: center;
+   border: 20px solid #f3e4e4;
+   width: 90%;
+   height: 50px;
+   padding: 50px;
+   margin: 20px;
+   color: rgb(255, 255, 255);
+  }
+  /*TEXTE*/
+  
+.txt{
+    letter-spacing: 1px;
+    font-style: italic;
+    padding-left: 1%;
+    color: #fff;
+
+}
+
